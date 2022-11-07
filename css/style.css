@@ -27,6 +27,14 @@ html{
     padding: 0;
 }
 
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.video{
+    padding-bottom: 3em;
+}
 
 /*  BARRA DE NAVEGACIÓN  */
 
@@ -49,17 +57,19 @@ a{
     text-decoration: none;
 }
 
+.CDBInicial{
+    padding-right: 3m;
+}
 
 /*  TITULOS Y PARRAFOS  */
 
 h1{
     color: rgb(255, 0, 0);
     text-align: center;
-    font-size: 5em;
+    font-size: 7em;
     margin-top: 50px;
-    margin-bottom: 50px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
     text-shadow: 2px 2px black;
 }
 
@@ -73,7 +83,7 @@ h2 {
 p{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.3em;
     text-shadow: 2px 2px black;
 }
 
@@ -228,6 +238,44 @@ img{
     align-items: center;
 }
 
+.articulo6 {
+    background-color: rgba(255, 136, 0, 0.295) ;
+    margin-bottom: 3em;
+}
+
+.img6{  
+    padding-right: 2.5em;
+}
+
+.text6{
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+    flex-direction: row-reverse;
+}
+
+.articulo6__titulo{
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo6__titulo--parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.subtitulo{
+    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 6em;
+    color: orange;
+    display: flex;
+}
+
 
 /*  PIE DE PAGINA  */
 
@@ -374,6 +422,10 @@ footer{
         justify-content: space-evenly;
     }
 
+    p{
+        font-size: 3em;
+    }
+
     li a{
         text-decoration: none;
         color: black;
@@ -393,6 +445,25 @@ footer{
     h3{
         font-size: 3.5em;
     }
+
+    .CDBInicial{
+    padding-right: 35em;
+    width: 15em;
+    height: 15em;
+    
+    }
+
+    .logo{
+        width: 15em;
+        height: 15em;
+        padding-bottom: 1em;
+    }    
+
+    .navbar-nav{
+       font-size: 2em;
+       
+    }
+
 }
 
 .box1:hover{
