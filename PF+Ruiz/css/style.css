@@ -1,0 +1,485 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Bangers & display=swap');
+
+
+/*MOVILE FIRST 0px-500pxX*/
+
+/* BODY */
+
+body {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(https://static.wikia.nocookie.net/16a9a3a1-1814-403f-9844-6541a312bfe7);
+    background-size: 100%;
+    font-family: bangers;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.video{
+    padding-bottom: 3em;
+}
+
+/*  BARRA DE NAVEGACIÓN  */
+
+header{
+    background-color: rgba(255, 0, 0, 0.493);
+    font-size: large;
+    display: grid;
+    justify-content: center;
+    padding: 4em 0 4em 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 3em;
+}
+
+a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.CDBInicial{
+    padding-right: 3m;
+}
+
+/*  TITULOS Y PARRAFOS  */
+
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 7em;
+    margin-top: 50px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+}
+
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 2px 2px black;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+}
+
+
+.articulo1 {
+    background-color: rgba(255, 136, 0, 0.295) ;
+    margin-bottom: 3em;
+}
+
+.img1{  
+    padding-right: 2.5em;
+}
+
+.text1{
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+    flex-direction: row-reverse;
+}
+
+.articulo1__titulo {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo1__titulo--parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.articulo2 {
+    background-color: rgba(255, 136, 0, 0.295) ;
+    margin-bottom: 3em;
+}
+
+.img2{  
+    padding-left: 2.5em;
+}
+
+.text2{
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+    flex-direction: row;
+}
+
+.articulo2__titulo {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo2__titulo--parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.articulo3 {
+    background-color: rgba(255, 136, 0, 0.295) ;
+    margin-bottom: 3em;    
+}
+
+.img3{  
+    padding-right: 2.5em;
+}
+
+.text3{
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+    flex-direction: row-reverse;
+}
+
+.articulo3__titulo {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo3__titulo--parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.articulo4 {
+    background-color: rgba(255, 136, 0, 0.295) ;
+    margin-bottom: 3em;
+}
+
+.img4{  
+    padding-left: 2.5em;
+}
+
+.text4{
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+    flex-direction: row;
+}
+
+.articulo4__titulo{
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo4__titulo--parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.articulo5 {
+    background-color: rgba(255, 136, 0, 0.295) ;
+    margin-bottom: 3em;
+}
+
+.img5{  
+    padding-right: 2.5em;
+}
+
+.text5{
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+    flex-direction: row-reverse;
+}
+
+.articulo5__titulo{
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo5__titulo--parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.articulo6 {
+    background-color: rgba(255, 136, 0, 0.295) ;
+    margin-bottom: 3em;
+}
+
+.img6{  
+    padding-right: 2.5em;
+}
+
+.text6{
+    display: flex;
+    align-items: center;
+    padding: 2.5em;
+    flex-direction: row-reverse;
+}
+
+.articulo6__titulo{
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo6__titulo--parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.subtitulo{
+    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 6em;
+    color: orange;
+    display: flex;
+}
+
+
+/*  PIE DE PAGINA  */
+
+
+footer{
+    padding: 3em;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+    background-color: rgba(255, 0, 0, 0.493);
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 222, 0);
+    padding-bottom: 1em;
+    text-shadow: 2px 2px black;
+}
+
+.icon {
+    width: 5em;
+    height: 5em;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* NOMBRE DE ÁREA PARA LA GRILLA*/
+
+header{
+    grid-area: header;
+}
+
+.contenido
+{
+    grid-area: contenido;
+}
+
+nav{
+    grid-area: nav;
+}
+
+.galeria-grid{
+    grid-area: galeria;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.gokupensando{
+    grid-area: GokuPensando;
+}
+
+.autor{
+    grid-area: Autor;
+}
+
+.impactomundial{
+    grid-area: ImpactoANivelMundial;
+}
+
+.mangavsanime{
+    grid-area: MangaVsAnime;
+}
+
+/*
+.Logo{
+    grid-area: Logo;
+}
+*/
+
+.envoltura{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "c contenido"
+    "galeria galeria"
+    "foorter footer"
+}
+
+
+@media (min-width:500px){
+    .envoltura{
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "contenido contenido"
+        "galeria galeria"
+        "footer footer";
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style-type: none;
+        padding-right: 3em;
+    }
+
+    img{
+        width: 350px;
+        height: 300px;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width:768px){
+
+    img {
+    width: 350px;
+    height: 300px;
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style-type: none;
+        padding-right: 3em;
+    }
+
+
+}
+
+@media (min-width: 1024px){
+    img{
+        width: 475px;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    p{
+        font-size: 3em;
+    }
+
+    li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 1.3em;
+        background-color: whitesmoke;
+    }
+    
+    .icon {
+        width: 8em;
+        height: 8em;
+        padding-left: 2em;
+        padding-bottom:  2em;
+    }
+    
+
+    h3{
+        font-size: 3.5em;
+    }
+
+    .CDBInicial{
+    padding-right: 35em;
+    width: 15em;
+    height: 15em;
+    
+    }
+
+    .logo{
+        width: 15em;
+        height: 15em;
+        padding-bottom: 1em;
+    }    
+
+    .navbar-nav{
+       font-size: 2em;
+       
+    }
+
+}
+
+.box1:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+.box2:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+.box3:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.8s;
+}
